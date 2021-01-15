@@ -1,0 +1,56 @@
+:root {
+    --dark: #343838;
+    --mdark: #005F6B;
+    --mid: #008C9E;
+    --mlight: #00B4CC;
+    --light: #00DFFC;
+    --white: #ddd;
+}
+
+html {
+    background-color: var(--dark);
+}
+
+body {
+    color: var(--white);
+    width: 50vw;
+    margin-left: 25vw;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.diagonal-box {
+    background-image: linear-gradient(45deg, var(--dark), var(--mdark));
+    position: fixed;
+    width: 46vw;
+    transform: skewY(-11deg);
+    padding: 2vw;
+}
+
+.diagonal-text {
+    margin: 0;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2vw;
+}
+
+h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2vw;
+}
+
+.spacer {
+    height: 8vw;
+}
+
+.module {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    transform: skewY(-11deg);
+}
+
+@media screen and (max-width: 1100px) {
+}
+
+@media screen and (max-width: 800px) {
+}
