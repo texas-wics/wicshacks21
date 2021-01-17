@@ -14,20 +14,26 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Yusei+Magic&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/switch.css" rel="stylesheet">
 
     </head>
 
     <body>
 
+
+        <div class="diagonal-box top"></div>
         <div class="diagonal-box">
             <div class="diagonal-text">
                 &lt; wics hackathon / &gt;
+        <div class="wrapper">
+            <input type="checkbox" name="checkbox" class="switch" onclick="changemode()">
+        </div>
             </div>
         </div>
 
         <div class="spacer"></div>
 
-        <button class="button"> feb 20 - 21 | register </button>
+        <button class="button" onclick="location.href='https://www.google.com';"> feb 20 - 21 | register </button>
 
         <div class="module">
             <h1 class="left"> Who are we? </h1>
@@ -48,6 +54,8 @@
             </div>
         </div>
 
+        <canvas class="background"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
