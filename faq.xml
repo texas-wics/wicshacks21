@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <item>
+        <question>When is WiCS Hacks?</question>
+        <answer>It'll be February 20-21, 2021!</answer>
+    </item>
+    <item>
+        <question>Who can attend?</question>
+        <answer>All women and non-binary students are welcome to attend! If you are under 18 you must be a high school student admitted to the University of Texas at Austin.</answer>
+    </item>
+    <item>
+        <question>Where will WiCS Hacks be held?</question>
+        <answer>WiCS Hacks will be hosted completely virtually this year!</answer>
+    </item>
+    <item>
+        <question>Do I have to attend both days of the hackathon or any particular workshops?</question>
+        <answer>Nope! You aren't required to attend both days, and it's up to you which workshops you want to go to.</answer>
+    </item>
+    <item>
+        <question>How much will this cost me?</question>
+        <answer>Nothing! It's completely free! WiCS provides students with Wi-Fi, meals, swag, workspace, and prizes for all of our events!</answer>
+    </item>
+    <item>
+        <question>What projects can I work on?</question>
+        <answer>Whatever you'd like. Software, hardware, design, music, art, animation — take your pick. We will reveal the prize categories at the start of the hackathon.</answer>
+    </item>
+    <item>
+        <question>How will teams work?</question>
+        <answer>Teams should be groups of up to 4 students. You can also work alone, but we encourage collaborating with the other great minds at WiCS Hacks.</answer>
+    </item>
+</questions>
