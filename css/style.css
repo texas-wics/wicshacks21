@@ -25,7 +25,7 @@ body {
 }
 
 .wrapper {
-    display: none;
+    display: inline;
     margin-top: 2vw;
 }
 
@@ -139,6 +139,10 @@ h1 {
     border-bottom: 0.2vw dotted var(--fg);
     padding: 1vh 1vw;
     margin-top: 1vh;
+}
+
+.quest {
+    cursor: pointer;
 }
 
 .answer {

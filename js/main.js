@@ -53,10 +53,10 @@ function myFunction(xml) {
 
         var code = String.fromCharCode('a'.charCodeAt() + i);
 
-        contents += "<div class=\"question\">" +
-            "<span id=\"" + code + "_t\">" + quest + "</span>" +
-            "<a onclick=\"expand('" + code + "')\" id=\"" +
-            code + "_l\" class=\"expand\">+</a>" +
+        contents += "<div onclick=\"expand('" + code + "')\" class=\"question\">" +
+            "<span id=\"" + code + "_t\" class=\"quest\">" + quest + "</span>" +
+            "<span id=\"" +
+            code + "_l\" class=\"expand\">+</span>" +
             "<div id=\"" + code + "\" class=\"answer\">" +
             ans + "</div></div>";
 
