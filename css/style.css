@@ -58,6 +58,14 @@ body {
     font-size: 2vw;
 }
 
+.highlight a {
+    color: var(--mlight);
+}
+
+.highlight a:hover {
+    color: var(--dark);
+}
+
 a {
     color: var(--mid);
     text-decoration: none;
