@@ -16,8 +16,8 @@ html {
 
 body {
     color: var(--fg);
-    width: 50vw;
-    margin-left: 25vw;
+    width: 60vw;
+    margin-left: 20vw;
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
@@ -45,7 +45,7 @@ body {
 .diagonal-box {
     background-color: var(--mdark);
     position: fixed;
-    width: 46vw;
+    width: 56vw;
     transform: skewY(-7deg);
     padding: 2vw;
     z-index: 1;
@@ -76,11 +76,13 @@ a:hover {
 }
 
 .button {
-    width: 50vw;
-    border: 0.2vw solid var(--mid);
+    width: 60vw;
+    font-size: 1.5vw;
+    border: 0.25vw solid var(--mid);
     color: var(--fg);
     background-color: var(--bg);
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     letter-spacing: 0.3vw;
     padding: 1vw;
     transform: skewY(-7deg);
@@ -91,6 +93,33 @@ a:hover {
     background-color: var(--mid);
     color: var(--dark);
 }
+
+.sponsor {
+    width: 15.4vw;
+    padding: 1vw;
+    border-width: 0.2vw;
+    border-style: solid;
+    text-align: center;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.sponsor-name {
+    color: rgba(76, 175, 80, 0);
+}
+
+.sponsor:hover {
+    background-image: url('invalid.png') !important;
+    background-color: var(--bg) !important;
+    color: var(--fg);
+}
+
+.sponsor:hover .sponsor-name {
+    color: var(--fg) !important;
+}
+
 
 h1 {
     font-family: 'Yusei Magic', sans-serif;

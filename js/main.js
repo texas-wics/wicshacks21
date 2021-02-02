@@ -1,5 +1,6 @@
 window.onload = function() {
     loadXMLDoc();
+    loadXMLDoc2();
 
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
@@ -63,6 +64,43 @@ function myFunction(xml) {
     }
 
     document.getElementById("faq").innerHTML = contents;
+
+}
+
+function loadXMLDoc2() {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            myFunction2(this);
+        }
+
+    };
+    xmlhttp.open("GET", "sponsors.xml" , true);
+    xmlhttp.send();
+
+}
+
+my_dict = {
+    "Gold": "#FFD700",
+    "Silver": "#C0C0C0",
+    "Bronze": "#cd7f32"
+};
+function myFunction2(xml) {
+    var x, i, xmlDoc, contents;
+    xmlDoc = xml.responseXML;
+    contents = "";
+    x = xmlDoc.getElementsByTagName("sponsor");
+    for (i = 0; i < x.length; i++) {
+        var name = x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+        var url = x[i].getElementsByTagName("url")[0].childNodes[0].nodeValue;
+        var level = x[i].getElementsByTagName("level")[0].childNodes[0].nodeValue;
+        var image = x[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+
+        contents += "<a href=\"" + url + "\"><div class=\"sponsor\" style=\"background-image: url('../images/sponsors/" + image + "');border-color:" + my_dict[level] + "\"><span class=\"sponsor-name\">" + name + "</span></div></a>";
+
+    }
+
+    document.getElementById("sponsors").innerHTML = contents;
 
 }
 
