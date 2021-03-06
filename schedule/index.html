@@ -1,123 +1,218 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
     <head>
+        <title>WiCS Hacks Schedule</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script>document.getElementsByTagName("html")[0].className += " js";</script>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>WiCS Hacks Schedule 2021</title>
+
+        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <header class="cd-main-header text-center flex flex-column flex-center">
-            <br />
-            <h1 class="text-xl">WiCS Hacks Schedule 2021</h1>
-        </header>
 
-        <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
-            <div class="cd-schedule__timeline">
-                <ul>
-                    <li><span>16:00</span></li>
-                    <li><span>16:30</span></li>
-                    <li><span>17:00</span></li>
-                    <li><span>17:30</span></li>
-                    <li><span>18:00</span></li>
-                    <li><span>18:30</span></li>
-                    <li><span>19:00</span></li>
-                    <li><span>19:30</span></li>
-                    <li><span>20:00</span></li>
-                    <li><span>20:30</span></li>
-                    <li><span>21:00</span></li>
-                    <li><span>21:30</span></li>
-                    <li><span>22:00</span></li>
-                </ul>
-            </div> <!-- .cd-schedule__timeline -->
+    <table>
+        <body>
 
-            <div class="cd-schedule__events">
-                <ul>
-                    <li class="cd-schedule__group">
-                        <div class="cd-schedule__top-info"><span>Monday</span></div>
+            <tr>
+                <th>08:00</th>
+                <td colspan="4" rowspan="2" class="day">Day 1: Saturday</td>
+            </tr>
+            <tr>
+                <th>08:30</th>
+            </tr>
+            <tr>
+                <th>09:00</th>
 
-                        <ul>
-                            <li class="cd-schedule__event">
-                                <a data-start="20:00" data-end="21:00" data-content="monday" data-event="event-1" href="#0">
-                                    <em class="cd-schedule__name">“How to Hackathon” + Team Formation</em>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                <td colspan="2" rowspan="2" class="logistics">Check-In <span>Discord: Check In channel</span></td>
+                <td colspan="2" rowspan="2" class="social">Speed Friending <span>Zoom: <a href="https://utexas.zoom.us/j/96700686003">967 0068 6003</a></span></td>
 
-                    <li class="cd-schedule__group">
-                        <div class="cd-schedule__top-info"><span>Tuesday</span></div>
+            </tr>
 
-                        <ul>
-                            <li class="cd-schedule__event">
-                                <a data-start="17:00" data-end="18:00"  data-content="tuesday" data-event="event-2" href="#0">
-                                    <em class="cd-schedule__name">Intro to Android</em>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
 
-                    <li class="cd-schedule__group">
-                        <div class="cd-schedule__top-info"><span>Wednesday</span></div>
+            <tr>
+                <th>09:30</th>
 
-                        <ul>
-                            <li class="cd-schedule__event">
-                                <a data-start="18:00" data-end="19:00" data-content="wednesday" data-event="event-4" href="#0">
-                                    <em class="cd-schedule__name">Intro to Flutter</em>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+            </tr>
 
-                    <li class="cd-schedule__group">
-                        <div class="cd-schedule__top-info"><span>Thursday</span></div>
 
-                        <ul>
-                            <li class="cd-schedule__event">
-                                <a data-start="19:00" data-end="20:00" data-content="thursday" data-event="event-1" href="#0">
-                                    <em class="cd-schedule__name">“How to be an Ally”</em>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+            <tr>
+                <th>10:00</th>
 
-                    <li class="cd-schedule__group">
-                        <div class="cd-schedule__top-info"><span>Friday</span></div>
+                <td colspan="4" class="stage">Opening Address &amp; Presentation of Categories <span>Discord: Opening Address channel</span></td>
+            </tr>
 
-                        <ul>
-                            <li class="cd-schedule__event">
-                                <a data-start="18:00" data-end="19:00"  data-content="friday" data-event="event-3" href="#0">
-                                    <em class="cd-schedule__name">Intro to Web Development</em>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
 
-            <div class="cd-schedule-modal">
-                <header class="cd-schedule-modal__header">
-                    <div class="cd-schedule-modal__content">
-                        <span class="cd-schedule-modal__date"></span>
-                        <h3 class="cd-schedule-modal__name"></h3>
-                    </div>
+            <tr>
+                <th>10:30</th>
 
-                    <div class="cd-schedule-modal__header-bg"></div>
-                </header>
+                <td colspan="2" class="logistics">Hacking Begins</td>
+                <td colspan="2" class="social">Team Matching <span>Discord: Team Matching Channel</span></td>
+            </tr>
 
-                <div class="cd-schedule-modal__body">
-                    <div class="cd-schedule-modal__event-info"></div>
-                    <div class="cd-schedule-modal__body-bg"></div>
-                </div>
 
-                <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
-            </div>
+            <tr>
+                <th>11:00</th>
 
-            <div class="cd-schedule__cover-layer"></div>
-        </div> <!-- .cd-schedule -->
+                <td colspan="2" rowspan="2" class="workshop">Ideation Workshop <span>Zoom: <a href="https://utexas.zoom.us/j/5189045534">518 904 5534</a></span></td>
+                <td colspan="2" rowspan="14" class="sponsor">Company Office Hours <span>Discord</span></td>
+            </tr>
 
-        <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
-        <script src="assets/js/main.js"></script>
-    </body>
+
+            <tr>
+                <th>11:30</th>
+            </tr>
+
+
+            <tr>
+                <th>12:00</th>
+
+                <td colspan="2" rowspan="2" class="workshop">How to Collaborate with GitHub <span>Zoom: <a href="https://utexas.zoom.us/j/7944300223">794 430 0223</a></span></td>
+
+            </tr>
+
+
+            <tr>
+                <th>12:30</th>
+            </tr>
+
+
+            <tr>
+                <th>13:00</th>
+                <td rowspan="6" class="sponsor">Career Fair <span>Discord</span></td>
+            </tr>
+
+
+            <tr>
+                <th>13:30</th>
+
+            </tr>
+
+
+            <tr>
+                <th>14:00</th>
+                <td rowspan="2" class="event">Grad School Panel <span>Zoom: <a href="https://utexas.zoom.us/j/9172429643">917 242 9643</a></span></td>
+            </tr>
+
+
+            <tr>
+                <th>14:30</th>
+
+            </tr>
+
+
+            <tr>
+                <th>15:00</th>
+            </tr>
+
+
+            <tr>
+                <th>15:30</th>
+            </tr>
+
+
+            <tr>
+                <th>16:00</th>
+                <td rowspan="2" class="workshop">UI/UX Workshop <span>Zoom: <a href="https://utexas.zoom.us/j/2076046965">207 604 6965</a></span></td>
+                <td rowspan="2" class="sponsor">Chevron: The Capacity for Emotional Intelligence <span>by Lap Lee Pate<br />Zoom: <a href="https://utexas.zoom.us/j/5189045534">518 904 5534</a></span></td>
+            </tr>
+
+
+            <tr>
+                <th>16:30</th>
+            </tr>
+
+
+            <tr>
+                <th>17:00</th>
+                <td rowspan="2" class="sponsor">TISTA: Technical Event <span>Zoom: <a href="https://utexas.zoom.us/j/2426248907">242 624 8907</a></span></td>
+            </tr>
+
+
+            <tr>
+                <th>17:30</th>
+                <td rowspan="2" class="social">Werewolves Social <span>Discord: Werewolves channel</span></td>
+            </tr>
+
+
+            <tr>
+                <th>18:00</th>
+                <td colspan="2"></td>
+                <td rowspan="2" colspan="2" class="event">Lightning Talks <span>Zoom: <a href="https://zoom.utexas.us/j/9172429643">917 242 9643</a><br><br><b>6:00 – 6:15</b> Imposter Syndrome in Tech/College<br><b>6:25 – 6:40</b> Who is a PM by TPEO <br><b>6:50 – 7:05</b> Women in Entrepreneurship by Kendra Scott Well Institute<br><b>7:15 – 7:30</b> Security by ISSS<br><b>7:30 – 8:00</b> Q &amp; A</span></td>
+            </tr>
+
+
+            <tr>
+                <th>18:30</th>
+
+            </tr>
+
+
+            <tr>
+                <th>19:00</th>
+
+            </tr>
+
+
+            <tr>
+                <th>19:30</th>
+                <td colspan="4" rowspan="1" class="workshop">How to Collaborate with GitHub <span>Zoom: <a href="https://utexas.zoom.us/j/7944300223">794 430 0223</a></span></td>
+            </tr>
+
+
+            <tr>
+                <th>20:00</th>
+
+                <td rowspan="2" colspan="4" class="social">Game Night <span>Zoom: <a href="https://utexas.zoom.us/j/96700686003">967 0068 6003</a></span></td>
+            </tr>
+
+
+            <tr>
+                <th>20:30</th>
+
+            </tr>
+
+
+            <tr>
+                <th>10:00</th>
+                <td colspan="4" rowspan="2" class="day">Day 2: Sunday</td>
+            </tr>
+            <tr>
+                <th>10:30</th>
+            </tr>
+            <tr>
+                <th>11:00</th>
+
+                <td colspan="4" rowspan="2" class="workshop">Pitch Workshop <span>Zoom: <a href="https://utexas.zoom.us/j/3301418627">330 141 8627</a></span></td>
+            </tr>
+            <tr>
+                <th>11:30</th>
+            </tr>
+            <tr>
+                <th>12:00</th>
+                <td colspan="2" rowspan="6" class="logistics">Judging <span>Discord</span></td>
+                <td colspan="2" rowspan="2" class="event">Programming Contest <span>Zoom: <a href="https://utexas.zoom.us/j/4035393586">403 539 3586</a></span></td>
+            </tr>
+            <tr>
+                <th>12:30</th>
+            </tr>
+            <tr>
+                <th>13:00</th>
+            </tr>
+            <tr>
+                <th>13:30</th>
+            </tr>
+            <tr>
+                <th>14:00</th>
+            </tr>
+            <tr>
+                <th>14:30</th>
+            </tr>
+            <tr>
+                <th>15:00</th>
+                <td rowspan="2" colspan="4" class="stage">Closing Address &amp; Awards <span>Discord: Awards channel</span></td>
+            </tr>
+            <tr>
+                <th>15:30</th>
+            </tr>
+        </body>
+    </table>
 </html>

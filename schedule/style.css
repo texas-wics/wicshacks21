@@ -1,0 +1,72 @@
+html {
+    background-color: #aaa;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem 0;
+    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+table {
+    background-color: #eee;
+    border: solid #555 0.5vw;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 100%;
+    max-width: 50rem;
+}
+table tr:nth-child(even) th {
+    color: #ccc;
+    font-weight: normal;
+}
+table th, table td {
+    padding: 0.5rem 1rem;
+}
+table th {
+    font-weight: normal;
+    border-top: thin dotted #ccc;
+}
+table td {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+    border-radius: 0.2rem;
+    transition: opacity 0.3s ease;
+}
+a {
+    color: #444;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+table td > span {
+    font-size: 0.8em;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+}
+.logistics {
+    background-color: #FFA726;
+}
+.social {
+    background-color: #9CCC65;
+}
+.stage {
+    background-color: #FF8A65;
+}
+.workshop {
+    background-color: #B3E5FC;
+}
+.event {
+    background-color: #81D4FA;
+}
+.sponsor {
+    background-color: #26C6DA;
+}
+.day {
+    background-color: #ccc;
+}
